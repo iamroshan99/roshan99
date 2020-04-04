@@ -1,0 +1,6 @@
+list1 = [int(x) for x in input().split()]
+out = []
+for i in list1:
+    if i > 0:
+        out.append(i)
+print(out)
